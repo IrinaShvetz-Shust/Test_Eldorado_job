@@ -1,0 +1,47 @@
+.container-applic__health > p {
+    font-family: 'PT Root UI';
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.container-applic__health > img {
+    margin-top: 0;
+    margin-left: 120px;
+}
+
+@media screen and (min-width: 720px) and (max-width: 999px) {
+    .container-applic__health > p {
+        font-size: 14px;
+    }
+
+    .container-applic__health > img {
+        margin-left: 75px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 719px) {
+    .container-applic__health {
+        display: flex;
+        flex-direction: row-reverse;
+        grid-row: 2;
+        border-bottom: 1px solid rgba($color: #000000, $alpha: 0.1);
+        gap: 10px;
+        width: 290px;
+        height: 68px;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    .container-applic__health > img {
+        margin-left: 15px;
+        width: 75px;
+        height: 60px;
+    }
+
+    .container-applic__health > p {
+        font-size: 12px;
+        line-height: 17px;
+        margin: 0;
+    }
+}

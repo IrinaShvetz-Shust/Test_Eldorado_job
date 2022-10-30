@@ -1,0 +1,43 @@
+.container-design__glass {
+    font-family: 'PT Root UI';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.container-design__glass > img {
+    padding-left: 80px;
+}
+
+.container-design__glass > p {
+    margin-top: 11px;
+}
+
+@media screen and (min-width: 720px) and (max-width: 999px) {
+    .container-design__glass {
+        font-size: 14px;
+    }
+
+    .container-design__glass > img {
+        padding-left: 131px;
+        padding-top: 30px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 719px) {
+    .container-design__glass {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .container-design__glass > p {
+        font-size: 12px;
+        }
+
+    .container-design__glass > img {
+        padding-left: 30px;
+        padding-top: 22px;
+        }
+}

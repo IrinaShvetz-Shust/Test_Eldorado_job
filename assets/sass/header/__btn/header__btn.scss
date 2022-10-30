@@ -1,0 +1,38 @@
+.header__btn {
+      position: relative;
+      height: 24px;
+      width: 30px;
+      cursor: pointer;
+      margin-right: 25px;
+}
+
+.header__btn span, .header__btn span:before, .header__btn span:after   {
+      left: 2.5px;
+      content: '';
+      width: 25px;
+      height: 2px;
+      background: #D70E2A;
+      display: inline-block;
+      position: absolute;
+      top: 11px;
+      transform-origin: center;
+}
+
+.header__btn span:before, .header__btn span:after {
+
+left: 0;
+
+}
+.header__btn span:before {
+top: 7px;
+}
+
+.header__btn span:after {
+top: 14px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 719px) {
+      .header__btn {
+            margin-right: 15px;
+      }
+}

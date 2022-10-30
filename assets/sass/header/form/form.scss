@@ -1,0 +1,10 @@
+#form {
+    flex-grow: 1;
+}
+
+@media screen and (min-width: 720px) and (max-width: 999px) {
+    #form {
+        flex-grow: 0;
+    }
+}
+

@@ -1,0 +1,28 @@
+.title {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 38px;
+    font-family: 'PT Root UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 50px;
+    color: #000000;
+    border-bottom: 1px solid rgba($color: #000000, $alpha: 0.3);
+    padding-bottom: 1.05em;
+}
+
+@media screen and (min-width: 720px) and (max-width: 999px) {
+    .title {
+        width: 670px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 719px) {
+    .title {
+        font-size: 30px;
+        margin-top: 28px;
+        margin-left: 15px;
+        padding-bottom: 0.5em;
+    }
+}

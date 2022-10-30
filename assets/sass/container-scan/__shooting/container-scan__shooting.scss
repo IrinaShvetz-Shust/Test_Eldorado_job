@@ -1,0 +1,46 @@
+.container-scan__shooting {
+    display: flex;
+}
+
+.container-scan__shooting > p {
+    margin-top: 20px;
+    font-family: 'PT Root UI';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.container-scan__shooting > img {
+    width: 60px;
+    height: 60px;
+    margin: 61px 41px 0 20px;
+}
+
+@media screen and (min-width: 720px) and (max-width: 999px) {
+    .container-scan__shooting > p {
+        font-size: 14px;
+    }
+
+    .container-scan__shooting > img {
+        margin-top: 90px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 719px) {
+    .container-scan__shooting {
+        display: block;
+        margin-left: 15px;
+    }
+
+    .container-scan__shooting > p {
+        font-size: 14px;
+        margin-top: 8px;
+    }
+
+    .container-scan__shooting > img {
+        margin-top: 5px;
+        margin-left: 115px;
+    }
+}

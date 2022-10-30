@@ -1,0 +1,27 @@
+@import "./__group/container-design__group.scss";
+@import "./__group13/container-design__group13.scss";
+@import "./__s10/container-design__s10.scss";
+@import "./__glass/container-design__glass.scss";
+
+.container-design {
+    display: grid;
+    grid-template-columns: repeat(4, 223px);
+    gap: 20px;
+    margin-top: 3.3em;
+    margin-left: 25px;
+}
+
+@media screen and (min-width: 720px) and (max-width: 999px) {
+    .container-design {
+        grid-template-columns: repeat(2, 325px);
+        margin-top: 2.5em;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 719px) {
+    .container-design {
+        grid-template-columns: repeat(2, 142px);
+        margin-left: 10px;
+        margin-top: 1.5em;
+    }
+}

@@ -1,0 +1,28 @@
+@import "./__switch/container-applic__switch.scss";
+@import "./__health/container-applic__health.scss";
+@import "./__bixby/container-applic__bixby.scss";
+@import "./__pay/container-applic__pay.scss";
+@import "./__things/container-applic__things.scss";
+
+.container-applic {
+    display: grid;
+    grid-template-columns: repeat(3, 304px);
+    gap: 20px;
+    margin-top: 3.3em;
+    margin-left: 25px;
+}
+
+@media screen and (min-width: 720px) and (max-width: 999px) {
+    .container-applic {
+        grid-template-columns: repeat(3, 210px);
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 719px) {
+    .container-applic {
+        grid-template-columns: 1;
+        grid-template-rows: repeat(5, 68px);
+        margin-top: 0;
+        margin-left: 15px
+    }
+}

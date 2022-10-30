@@ -1,0 +1,29 @@
+.applic {
+    font-family: 'PT Root UI';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+    margin-left: 25px;
+    margin-top: 1.5em;
+    border-top: 1px solid rgba($color: #000000, $alpha: 0.3);
+    padding-top: 39px;
+    width: 950px;
+}
+
+@media screen and (min-width: 720px) and (max-width: 999px) {
+    .applic {
+        width: 670px;
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 719px) {
+    .applic {
+        font-size: 22px;
+        line-height: 31px;
+        width: 290px;
+        margin-left: 15px;
+        padding-top: 20px;
+    }
+}

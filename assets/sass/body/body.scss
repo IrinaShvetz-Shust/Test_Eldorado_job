@@ -1,0 +1,17 @@
+.body {
+    width: 1000px;
+    margin: 12px auto;
+}
+
+@media screen and (min-width: 720px) and (max-width: 999px) {
+    .body {
+        width: 720px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 719px) {
+    .body {
+        margin-top: 10px;
+        width: 320px;
+    }
+}

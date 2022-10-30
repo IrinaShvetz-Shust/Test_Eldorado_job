@@ -1,0 +1,19 @@
+@import "./__image/header__image.scss";
+@import "./__form/header__search.scss";
+@import "./__line/header__line.scss";
+@import "./__line_red/header__line_red.scss";
+@import "./__btn/header__btn.scss";
+@import "./form/form.scss";
+@import "./__form/header__search.scss";
+
+
+.header {
+    display: flex;
+    margin-left: 25px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 719px) {
+    .header {
+        margin-left: 15px;
+    }
+}

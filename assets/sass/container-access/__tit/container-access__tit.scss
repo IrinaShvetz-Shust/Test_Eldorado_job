@@ -1,0 +1,22 @@
+.container-access__tit {
+    font-family: 'PT Root UI';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    border-top: 1px solid rgba($color: #000000, $alpha: 0.1);
+    padding-top: 20px;
+}
+
+@media screen and (min-width: 720px) and (max-width: 999px) {
+    .container-access__tit {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 719px) {
+    .container-access__tit {
+        display: none;
+    }
+}

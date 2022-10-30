@@ -1,0 +1,16 @@
+.header__line_red {
+    border-bottom: 3px solid #D70E2A;
+    width: 207px;
+}
+
+@media screen and (min-width: 720px) and (max-width: 999px) {
+    .header__line_red {
+        width: 149px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 719px) {
+    .header__line_red {
+        display: none;
+    }
+}

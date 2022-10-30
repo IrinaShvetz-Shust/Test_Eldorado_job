@@ -1,0 +1,22 @@
+.grey-line {
+    padding: 5px 15px 0;
+    height: 19px;
+    font-family: 'PT Root UI';
+    font-size: 10px;
+    line-height: 14px;
+    color: #000000;
+    opacity: 0.7;
+    background: #EFEFEF;
+}
+
+@media screen and (min-width: 1000px) {
+    .grey-line {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 720px) and (max-width: 999px) {
+    .grey-line {
+        display: none;
+    }
+}

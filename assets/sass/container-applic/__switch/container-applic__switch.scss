@@ -1,0 +1,45 @@
+.container-applic__switch > p {
+    font-family: 'PT Root UI';
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.container-applic__switch > img {
+    margin-top: 0px;
+    margin-left: 120px;
+}
+
+@media screen and (min-width: 720px) and (max-width: 999px) {
+    .container-applic__switch > p {
+        font-size: 14px;
+    }
+
+    .container-applic__switch > img {
+        margin-left: 75px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 719px) {
+    .container-applic__switch {
+        display: flex;
+        grid-row: 1;
+        border-bottom: 1px solid rgba($color: #000000, $alpha: 0.1);
+        gap: 15px;
+        width: 290px;
+        height: 68px;
+        padding-bottom: 30px;
+    }
+
+    .container-applic__switch > img {
+        margin-left: 10px;
+        width: 75px;
+        height: 60px;
+    }
+
+    .container-applic__switch > p {
+        font-size: 12px;
+        line-height: 17px;
+        margin: 0;
+    }
+}

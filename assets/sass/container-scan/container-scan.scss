@@ -1,0 +1,25 @@
+@import "./__image2/container-scan__image2.scss";
+@import "./__shooting/container-scan__shooting.scss";
+@import "./__stabil/container-scan__stabil.scss";
+@import "./__slow/container-scan__slow.scss";
+
+.container-scan {
+    display: grid;
+    grid-template-columns: repeat(2, 465px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 20px;
+    margin-left: 25px;
+}
+@media screen and (min-width: 720px) and (max-width: 999px) {
+    .container-scan {
+        grid-template-columns: repeat(2, 325px);
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 719px) {
+    .container-scan {
+        grid-template-columns: repeat(1, 290px);
+        grid-template-rows: 200px 146px 200px 200px;
+        margin-left: 0;
+    }
+}
