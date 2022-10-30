@@ -1,6 +1,7 @@
 .header__search {
     width: 704px;
     border: none;
+    outline: none;
     margin-top: 9px;
     margin-left: 27px;
     font-family: 'PT Root UI';
@@ -8,6 +9,12 @@
     line-height: 21px;
     color: #000000;
     opacity: 0.7;
+    box-shadow: 0 0 0 0 #000000;
+    transition: all .3s;
+}
+
+.header__search:active, .header__search:focus {
+    box-shadow: 0 0 2px 0 #000000;
 }
 
 @media screen and (min-width: 720px) and (max-width: 999px) {
