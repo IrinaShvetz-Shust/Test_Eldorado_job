@@ -11,6 +11,12 @@
     color: #FFFFFF;
 }
 
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .container-design__group {
+        margin-right: 20px;
+    }
+}
+
 @media screen and (min-width: 720px) and (max-width: 999px) {
     .container-design__group {
         height: 282px;

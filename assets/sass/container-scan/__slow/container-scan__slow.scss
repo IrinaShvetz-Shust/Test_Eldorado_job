@@ -16,6 +16,12 @@
     margin: 121px 41px 0 20px;
 }
 
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .container-slow {
+        width: 100%;
+    }
+}
+
 @media screen and (min-width: 720px) and (max-width: 999px) {
     .container-scan__slow > p {
         font-size: 14px;

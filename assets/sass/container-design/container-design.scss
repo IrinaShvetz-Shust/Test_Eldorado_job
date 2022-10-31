@@ -11,6 +11,13 @@
     margin-left: 25px;
 }
 
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .container-design {
+        display: flex;
+        margin-top: 3em;
+    }
+}
+
 @media screen and (min-width: 720px) and (max-width: 999px) {
     .container-design {
         grid-template-columns: repeat(2, 325px);

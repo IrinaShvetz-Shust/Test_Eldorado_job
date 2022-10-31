@@ -1,0 +1,7 @@
+.container-scan__content {
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+        .container-scan__content {
+            width: 50%;
+        }
+    }
+}

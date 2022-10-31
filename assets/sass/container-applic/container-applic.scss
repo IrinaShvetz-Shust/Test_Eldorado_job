@@ -12,6 +12,12 @@
     margin-left: 25px;
 }
 
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .container-applic {
+        display: flex;
+    }
+}
+
 @media screen and (min-width: 720px) and (max-width: 999px) {
     .container-applic {
         grid-template-columns: repeat(3, 210px);
