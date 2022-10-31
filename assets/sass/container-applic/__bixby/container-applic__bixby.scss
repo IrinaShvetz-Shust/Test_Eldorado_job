@@ -6,17 +6,13 @@
 }
 
 .container-applic__bixby > img {
-    margin-top: 0;
-    margin-left: 120px;
+    margin: 0 auto;
+    display: block;
 }
 
 @media screen and (min-width: 720px) and (max-width: 999px) {
     .container-applic__bixby > p {
         font-size: 14px;
-    }
-
-    .container-applic__bixby > img {
-        margin-left: 75px;
     }
 }
 
@@ -31,12 +27,6 @@
         margin-top: 50px;
         padding-top: 30px;
         padding-bottom: 30px;
-    }
-
-    .container-applic__bixby > img {
-        margin-left: 10px;
-        width: 75px;
-        height: 60px;
     }
 
     .container-applic__bixby > p {
